@@ -135,6 +135,14 @@ body {
   position: relative;
 }
 
+.navigation-list-link-second:hover, .navigation-list-link-second:focus {
+  color: var(--accent-color);
+}
+
+.navigation-list-link:hover, .navigation-list-link:focus {
+  color: var(--accent-color);
+}
+
 .navigation-list-link-first:after {
   content: "";
   display: block;
@@ -793,9 +801,10 @@ li {
 }
 
 .close-btn_icon {
-transition-property: all;
-transition-duration: 250ms;
-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);}
+  transition-property: all;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 .is-hidden {
   opacity: 0;
