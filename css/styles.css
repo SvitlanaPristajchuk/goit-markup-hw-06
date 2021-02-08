@@ -275,6 +275,7 @@ li {
   margin-top: 30px;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  border: none;
 }
 
 .main-title {
@@ -591,7 +592,7 @@ li {
 .contacts .container {
   display: flex;
   width: 1200px;
-  align-item s: baseline;
+  align-items: baseline;
 }
 
 .navigation-list-footer {
@@ -728,6 +729,7 @@ li {
   line-height: 1.875;
   letter-spacing: 0.06em;
   color: #FFFFFF;
+  border: none;
 }
 
 .footer-form-input {
