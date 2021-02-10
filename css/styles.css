@@ -224,8 +224,11 @@ li {
 }
 
 .container {
-  width: 1170px;
-  margin: 0 auto;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .visually-hidden {
@@ -276,6 +279,7 @@ li {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   border: none;
+  color: white;
 }
 
 .main-title {
@@ -347,6 +351,7 @@ li {
   text-transform: uppercase;
   color: #212121;
   margin-right: 30px;
+  margin-bottom: 10px;
 }
 
 .priorities-list-item {}
@@ -698,6 +703,8 @@ li {
   fill: white
 }
 
+/*===========end-contacts=======*/
+
 /*======footer-form======*/
 
 .footer-form {
@@ -740,23 +747,22 @@ li {
   background: #2F303A;
   border-radius: 4px;
   margin-right: 12px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 16px;
+  color: rgba(255, 255, 255, 0.6);
 }
 
-::placeholder {
+input::placeholder {
   font-family: var(--main-font);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
-  padding-top: 15px;
-  padding-bottom: 15px;
-  padding-left: 16px;
 }
 
 /*======end-footer-form======*/
-
-/*===========end-contacts=======*/
 
 /*===========backdrop=======*/
 
@@ -803,9 +809,12 @@ li {
 }
 
 .close-btn_icon {
+  position: relative;
   transition-property: all;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  top: 50%;
+  transform: translateY(-65%);
 }
 
 .is-hidden {
@@ -873,23 +882,21 @@ li {
   border: 1px solid rgba(33, 33, 33, 0.2);
   box-sizing: border-box;
   border-radius: 4px;
-  padding-left: 42px;
   margin-top: 4px;
   transition-property: all;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  padding-top: 12px;
-  padding-bottom: 12px;
-  padding-left: 16px;
-  padding-right: 16px;
   resize: none;
+  padding-top: 12px;
+  padding-left: 16px;
+  color: rgba(117, 117, 117, 0.5);
 }
 
 ::placeholder {
   font-family: var(--main-font);
   font-weight: 400;
   font-size: 14px;
-  line-height: 1, 143;
+  line-height: 1.143;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
